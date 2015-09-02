@@ -1,0 +1,30 @@
+{
+  "name": "generator-bauer-script",
+  "version": "0.1.0",
+  "description": "Yeoman generator to create a bauer script.",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "https://github.com/yneves/generator-bauer-script",
+  "author": {
+    "name": "Yuri Neves Silveira",
+    "email": "npm@yneves.com",
+    "url": "http://yneves.com"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.19.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "bauer-script-<%= script %>",
+  "version": "0.1.0",
+  "plugins": [],
+  "config": {},
+  "description": "<%= description %>",
+  "keywords": [
+    "<%= script %>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/<%= github_username %>/node-bauer-script-<%= script %>",
+  "author": {
+    "name": "<%= author_name ? author_name : github_username %>",
+    "url": "<%= author_website ? author_website : 'https://github.com/' + github_username %>",
+    "email": "<%= npm_email %>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<%= github_username %>/node-bauer-script-<%= script %>.git"
+  },
+  "dependencies": {
+    "bauer-crawler": "*",
+    "bauer-factory": "*"
+  },
+  "main": "./main.js"
+}
